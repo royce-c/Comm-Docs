@@ -1,3 +1,12 @@
+
+# How to push code project to github repository from vscode terminal
+## Pre requisites 
+This guide requires you to have vscode and git installed, as well as to have created a github account and github repository. if you do not have vscode and git installed you can do so here. <link>
+To create a github account and a repository do so here. <link>
+
+
+
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
@@ -16,6 +25,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-```
+``` bash
 ctrl `
 ```
+
