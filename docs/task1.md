@@ -50,3 +50,7 @@ To verify enter `git remote -v` to view the remote repo
 Enter the command `git push origin main`
 This command pushes your local repo to the remote github repo.
 Origin tells git where to push your code (in this case we set it as github)
+
+## Conclusion
+
+In conclusion, pushing code to Github is a fundamental aspect of version control and collaboration in software development projects. By following the steps outlined in this documentation, you can push your code to Github using Git and VScode. It is important to note that before starting, you need to have a Github account, an existing project that you want to push to Github, and a basic understanding of Git commands and navigating through the terminal. By initializing Git, adding files to be staged, committing changes to the local repository, adding the remote repository address, and finally pushing the local repository to the remote Github repository, you can ensure that your project is up to date and collaborative efforts are efficient.

@@ -1,5 +1,7 @@
 # How to work with branches on github?
+
 ## Introduction
+
  One of the most important features of version control systems like Git and GitHub is the ability to create and manage branches. Branches allow you to work on multiple versions of your code simultaneously and keep your work organized.
 
 Here are the 7 steps to create a new branch, make changes, and push those changes to GitHub:
@@ -41,3 +43,7 @@ Use the git commit command to commit the changes to the new branch.
 Use the git push command to push the changes to the new branch on GitHub.
 
 `git push -u origin new-branch`
+
+## Conclusion
+
+In conclusion, working with branches on GitHub is an essential part of version control. It allows you to work on different versions of your codebase without affecting the main branch. By following the 7 steps outlined in this documentation, you can create a new branch, make changes to your code, and push those changes to GitHub. This ensures that your work is organized and easily manageable. Remember to always create a new branch before making any changes to your code, and to push your changes to GitHub regularly to avoid losing any progress.
