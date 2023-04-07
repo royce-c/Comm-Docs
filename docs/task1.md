@@ -5,6 +5,7 @@
 Pushing code to Github is a crucial part of version control and collaboration for software development projects. This part of the documentation will guide you through the process of pushing your code to Github using the Git command-line interface and Visual Studio Code (VScode) text editor.
 
 Before you begin, it is assumed that you have created a Github account and have an existing project that you want to push to Github. Additionally, you should have a basic understanding of Git commands and how to navigate through the terminal.
+So let's get started and learn how to push your code to Github using Git and VScode!
 
 ## Step 1 - Launch vscode and open your project
 
