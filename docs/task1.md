@@ -1,5 +1,7 @@
 # How to push code to Github
 
+## Introduction
+In this guide we will be explaining how to push code to github. What this means is we be sending out code stored on our computers to a remote location (Github's servers) to be stored. Once our code is in Github's servers, github will host our code so others can view it and collaborate with us. Having code stored remotely is very useful because it can also serve as a backup incase our local repo is lost or corrupted.
 ## Step 1 - Launch vscode and open your project
 
 Launch vscode and open your project that is not currently a git repository.
@@ -10,12 +12,16 @@ Open the terminal. You can do this via the keyboard shortcut via ``` ctrl ` ```
 
 Verify you are in the correct directory by using the command `pwd`, this will print the working directory you are in. Make sure this is the folder returned to the terminal is the one you want to push to Github
 
-Enter the command `git -v` this will return the version of git to the terminal. Do this to confirm git is installed correctly.
+Enter the command `git --version` this will return the version of git to the terminal. Do this to confirm git is installed correctly.
 
 ## Step 3 - Initialize git
 
 Enter the command `git init`
-This command initializes your folder by having git track changes
+This command initializes your folder by having git track changes.
+
+To verify enter the command `ls -a`. This command lists all the files in your directory. If Git was initialized correctly than you should see a folder named .git in your directory.
+
+Warning make sure you are in the correct directory before initializing git. If you initialize git in the wrong directory you will have to delete the .git folder from it and switch to the correct folder to restart.
 
 ## Step 4 - Add files to be staged
 
@@ -26,7 +32,7 @@ This command stages each of your files, what this means is git has added all the
 
 ## Step 5 - Commit changes to local repository
 
-Enter the command `git commit -m “<message>”` and replace <message> with your own message. do not include the <> characters around your message.
+Enter the command `git commit -m “<message>”` and replace <message> with your own message (do not include the <> characters around your message).
 
 What this command does is commit your staged changes to your local repository.
 
