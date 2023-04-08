@@ -28,7 +28,9 @@ Warning make sure you are in the correct directory before initializing git. If y
 Enter the command `git add .`
 The . character tells git to add all files in the folder. Alternatively, you could type each file you wish to add manually.
 
-This command stages each of your files, what this means is git has added all the files in your folder to be committed
+This command stages each of your files, what this means is git has added all the files in your folder to be committed.
+
+To verify that it worked you can enter the command `git status` this will return the current status of Git. If it ran successfully you should see all the files that are staged to be committed printed in green on the terminal.
 
 ## Step 5 - Commit changes to local repository
 
