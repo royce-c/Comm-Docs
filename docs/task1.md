@@ -2,6 +2,12 @@
 
 ## Introduction
 In this guide we will be explaining how to push code to github. What this means is we be sending out code stored on our computers to a remote location (Github's servers) to be stored. Once our code is in Github's servers, github will host our code so others can view it and collaborate with us. Having code stored remotely is very useful because it can also serve as a backup incase our local repo is lost or corrupted.
+
+Pushing code to Github is a crucial part of version control and collaboration for software development projects. This part of the documentation will guide you through the process of pushing your code to Github using the Git command-line interface and Visual Studio Code (VScode) text editor.
+
+Before you begin, it is assumed that you have created a Github account and have an existing project that you want to push to Github. Additionally, you should have a basic understanding of Git commands and how to navigate through the terminal.
+So let's get started and learn how to push your code to Github using Git and VScode!
+
 ## Step 1 - Launch vscode and open your project
 
 Launch vscode and open your project that is not currently a git repository.
@@ -51,3 +57,7 @@ To verify enter `git remote -v` to view the remote repo
 Enter the command `git push origin main`
 This command pushes your local repo to the remote github repo.
 Origin tells git where to push your code (in this case we set it as github)
+
+## Conclusion
+
+In conclusion, pushing code to Github is a fundamental aspect of version control and collaboration in software development projects. By following the steps outlined in this documentation, you can push your code to Github using Git and VScode. It is important to note that before starting, you need to have a Github account, an existing project that you want to push to Github, and a basic understanding of Git commands and navigating through the terminal. By initializing Git, adding files to be staged, committing changes to the local repository, adding the remote repository address, and finally pushing the local repository to the remote Github repository, you can ensure that your project is up to date and collaborative efforts are efficient.
